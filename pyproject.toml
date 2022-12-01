@@ -14,4 +14,6 @@ repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
 [build-system]
 requires = ["cmeel[build]", "cmeel-cppad"]
 build-backend = "cmeel.build"
+build-number = 1
 source = "CppADCodeGen"
+run-tests = false
