@@ -11,9 +11,11 @@ dependencies = ["cmeel-cppad"]
 homepage = "https://github.com/cmake-wheel/cmeel-cppadcodegen"
 repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
 
+[tool.cmeel]
+build-number = 2
+configure-args = ["-DGOOGLETEST_GIT=ON"]
+source = "CppADCodeGen"
+
 [build-system]
 requires = ["cmeel[build]", "cmeel-cppad"]
 build-backend = "cmeel.build"
-build-number = 2
-source = "CppADCodeGen"
-configure-args = ["-DGOOGLETEST_GIT=ON"]
