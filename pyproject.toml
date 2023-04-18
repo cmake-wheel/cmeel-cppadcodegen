@@ -2,7 +2,6 @@
 name = "cmeel-cppadcodegen"
 version = "2.4.3"
 description = "cmeel distribution for CppADCodeGen, Source Code Generation for Automatic Differentiation using Operator Overloading"
-readme = "README.md"
 requires-python = ">= 3.7"
 license = "EPL-1.0"
 dependencies = ["cmeel-cppad"]
