@@ -1,3 +1,7 @@
+[build-system]
+requires = ["cmeel[build]", "cmeel-cppad"]
+build-backend = "cmeel.build"
+
 [project]
 name = "cmeel-cppadcodegen"
 version = "2.4.3"
@@ -14,7 +18,3 @@ repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
 build-number = 2
 configure-args = ["-DGOOGLETEST_GIT=ON"]
 source = "CppADCodeGen"
-
-[build-system]
-requires = ["cmeel[build]", "cmeel-cppad"]
-build-backend = "cmeel.build"
