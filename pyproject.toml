@@ -1,14 +1,14 @@
 [build-system]
-requires = ["cmeel[build]", "cmeel-cppad"]
 build-backend = "cmeel.build"
+requires = ["cmeel-cppad", "cmeel[build]"]
 
 [project]
-name = "cmeel-cppadcodegen"
-version = "2.4.3"
-description = "cmeel distribution for CppADCodeGen, Source Code Generation for Automatic Differentiation using Operator Overloading"
-requires-python = ">= 3.7"
-license = "EPL-1.0"
 dependencies = ["cmeel-cppad"]
+description = "cmeel distribution for CppADCodeGen, Source Code Generation for Automatic Differentiation using Operator Overloading"
+license = "EPL-1.0"
+name = "cmeel-cppadcodegen"
+requires-python = ">= 3.7"
+version = "2.4.3"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-cppadcodegen"
@@ -18,3 +18,6 @@ repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
 build-number = 2
 configure-args = ["-DGOOGLETEST_GIT=ON"]
 source = "CppADCodeGen"
+
+[tool.tomlsort]
+all = true
