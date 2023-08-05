@@ -1,5 +1,5 @@
 [build-system]
-build-backend = "cmeel.build"
+build-backend = "cmeel"
 requires = ["cmeel-cppad", "cmeel[build]"]
 
 [project]
@@ -7,7 +7,7 @@ dependencies = ["cmeel-cppad"]
 description = "cmeel distribution for CppADCodeGen, Source Code Generation for Automatic Differentiation using Operator Overloading"
 license = "EPL-1.0"
 name = "cmeel-cppadcodegen"
-requires-python = ">= 3.7"
+requires-python = ">= 3.8"
 version = "2.4.3"
 
 [project.urls]
