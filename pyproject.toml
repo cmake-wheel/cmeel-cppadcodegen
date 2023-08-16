@@ -15,9 +15,10 @@ homepage = "https://github.com/cmake-wheel/cmeel-cppadcodegen"
 repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
 
 [tool.cmeel]
-any = true
 build-number = 4
 configure-args = ["-DGOOGLETEST_GIT=ON"]
+has-binaries = false
+has-sitelib = false
 run-tests = false
 source = "CppADCodeGen"
 
