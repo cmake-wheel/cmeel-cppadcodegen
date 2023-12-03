@@ -13,6 +13,7 @@ version = "2.4.3"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-cppadcodegen"
 repository = "https://github.com/cmake-wheel/cmeel-cppadcodegen.git"
+upstream = "https://github.com/joaoleal/CppADCodeGen"
 
 [tool.cmeel]
 build-number = 4
